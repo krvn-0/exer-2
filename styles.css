@@ -1,3 +1,20 @@
+#name, #project-header, #about-me, #skills, #autobiography {
+    font-family: 'Arial', sans-serif; /* Use a professional and widely supported font like Arial */
+}
+
+#header, #projects {
+    font-family: 'Helvetica', sans-serif; /* Use another common sans-serif font for readability */
+}
+
+#project1, #project2 {
+    font-family: 'Roboto', sans-serif; /* Use a modern sans-serif font for project details */
+}
+
+body {
+    margin: 0px;
+    background-color: black;
+}
+
 #name{
     /* display: flex; */
     justify-content: center;
@@ -61,4 +78,22 @@ body{
 
 #project1:hover, #project2:hover{
     border: 2px solid gray;
+}
+
+#about-me{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(18, 195, 18, 0.18);/* alpha value for transparency */
+    flex-direction: column;
+}
+
+#skills, #autobiography{
+    border: solid;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 5px;
+}
+
+.about-me-titles{
+    text-align: center;
 }
