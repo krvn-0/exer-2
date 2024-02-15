@@ -1,13 +1,9 @@
 #name, #project-header, #about-me, #skills, #autobiography {
-    font-family: 'Arial', sans-serif; /* Use a professional and widely supported font like Arial */
+    font-family: 'Arial', sans-serif;
 }
 
-#header, #projects {
-    font-family: 'Helvetica', sans-serif; /* Use another common sans-serif font for readability */
-}
-
-#project1, #project2 {
-    font-family: 'Roboto', sans-serif; /* Use a modern sans-serif font for project details */
+#header, #projects, #contact-info {
+    font-family: 'Helvetica', sans-serif;
 }
 
 body {
@@ -96,4 +92,19 @@ body{
 
 .about-me-titles{
     text-align: center;
+}
+
+#contact-info{
+    display: flex;
+    flex-direction: column;
+}
+
+#email, #number{
+    margin: 0;
+    font-size: 13px;
+}
+
+#address{
+    font-size:13px;
+    margin-top: 0;
 }
