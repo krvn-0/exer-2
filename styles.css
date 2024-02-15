@@ -37,8 +37,28 @@ body{
     border-color: green;
 }
 
-#featured-photo-title{
-    text-align: center;
-    border: solid;
+#project-header{
     margin: 0;
+    display: flex;
+    /* border: solid; */
+    justify-content: center;
+}
+
+#projects{
+    /* border: solid; */
+    border-color: blue;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#project1, #project2{
+    /* border: solid; */
+    border-color: gray;
+    object-fit: contain;
+    width: 300px;
+}
+
+#project1:hover, #project2:hover{
+    border: 2px solid gray;
 }
