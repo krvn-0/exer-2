@@ -2,7 +2,9 @@
 
 # Info
 Name: Kervin Ralph A. Samson 
+
 Degree Program: BS Computer Science 
+
 Website Link: https://krvn-0.github.io/exer-2/
 
 # Steps to create github page
