@@ -1,110 +1,109 @@
+/*
+    Kervin Ralph A. Samson
+    U-2L
+    2022-00730
+*/
+
+/* Global Font Styles */
 #name, #project-header, #about-me, #skills, #autobiography {
-    font-family: 'Arial', sans-serif;
+    font-family: 'Arial', sans-serif; /* Apply Arial or fallback to sans-serif font family */
 }
 
 #header, #projects, #contact-info {
-    font-family: 'Helvetica', sans-serif;
+    font-family: 'Helvetica', sans-serif; /* Apply Helvetica or fallback to sans-serif font family */
 }
 
+/* Body Styles */
 body {
-    margin: 0px;
-    background-color: black;
+    margin: 0px; /* Resetting default body margin */
+    background-color: black; /* Setting the background color to black */
 }
 
-#name{
-    /* display: flex; */
-    justify-content: center;
-    margin: 0px;
-    /* border: solid; */
-    border-color: red;
+/* Header Section Styles */
+#name {
+    justify-content: center; /* Centering content horizontally */
+    margin: 0px; /* Resetting margin */
+    border-color: red; /* Setting border color to red */
 }
 
-#header{
+#header {
     display: flex;
-    height: 300px;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background-image: url("header-bg.png");
-    background-size: cover;
-    /* border: solid; */
-    /* border-color: blue; */
+    height: 300px; /* Setting the height of the header */
+    flex-direction: column; /* Arranging child elements in a column */
+    align-items: center; /* Centering child elements horizontally */
+    justify-content: center; /* Centering child elements vertically */
+    background-image: url("header-bg.png"); /* Setting background image */
+    background-size: cover; /* Ensuring the background image covers the container */
 }
 
-body{
-    margin: 0px;
-    background-color: black;
+/* Logo Container Styles */
+#logo-container {
+    justify-content: center; /* Centering content horizontally */
+    align-items: center; /* Centering content vertically */
+    border-color: red; /* Setting border color to red */
+    margin: 0px; /* Resetting margin */
 }
 
-#logo-container{
-    /* display: flex; */
-    justify-content: center;
-    align-items: center;
-    /* border:solid; */
-    border-color: red;
-    margin: 0px;
-}
-#logo{
-    width: 50px;
-    /* border-style: solid; */
-    border-color: green;
+#logo {
+    width: 50px; /* Setting the width of the logo image */
+    border-color: green; /* Setting border color to green */
 }
 
-#project-header{
-    margin: 0;
+/* Project Section Styles */
+#project-header {
+    margin: 0; /* Resetting margin */
     display: flex;
-    /* border: solid; */
-    justify-content: center;
+    justify-content: center; /* Centering content horizontally */
 }
 
-#projects{
-    /* border: solid; */
-    border-color: blue;
+#projects {
+    border-color: blue; /* Setting border color to blue */
     display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
+    justify-content: space-around; /* Distributing child elements with space around them */
+    flex-wrap: wrap; /* Allowing child elements to wrap to the next line if they exceed the container width */
 }
 
-#project1, #project2{
-    /* border: solid; */
-    border-color: gray;
-    object-fit: contain;
-    width: 300px;
+#project1, #project2 {
+    border-color: gray; /* Setting border color to gray */
+    object-fit: contain; /* Ensuring the images maintain their aspect ratio within the container */
+    width: 300px; /* Setting a fixed width for the project images */
 }
 
-#project1:hover, #project2:hover{
-    border: 2px solid gray;
+#project1:hover, #project2:hover {
+    border: 2px solid gray; /* Adding a thicker border on hover for project images */
 }
 
-#about-me{
+/* About Me Section Styles */
+#about-me {
     display: flex;
-    justify-content: space-around;
-    background-color: rgba(18, 195, 18, 0.18);/* alpha value for transparency */
-    flex-direction: column;
+    justify-content: space-around; /* Distributing child elements with space around them */
+    background-color: rgba(18, 195, 18, 0.18); /* Setting a semi-transparent green background color */
+    flex-direction: column; /* Arranging child elements in a column */
 }
 
-#skills, #autobiography{
-    border: solid;
-    border-radius: 10px;
-    padding: 10px;
-    margin: 5px;
+#skills, #autobiography {
+    border: solid; /* Adding a solid border to the skills and autobiography sections */
+    border-radius: 10px; /* Adding rounded corners to the border */
+    padding: 10px; /* Adding padding inside the border */
+    margin: 5px; /* Adding margin around the border */
 }
 
-.about-me-titles{
-    text-align: center;
+.about-me-titles {
+    text-align: center; /* Centering the text within the titles */
 }
 
-#contact-info{
+/* Contact Information Section Styles */
+#contact-info {
     display: flex;
-    flex-direction: column;
+    flex-direction: column; /* Arranging child elements in a column */
 }
 
-#email, #number{
-    margin: 0;
-    font-size: 13px;
+#email, #number {
+    margin: 0; /* Resetting margin */
+    font-size: 13px; /* Setting font size to 13 pixels */
 }
 
-#address{
-    font-size:13px;
-    margin-top: 0;
+#address {
+    font-size: 13px; /* Setting font size to 13 pixels */
+    margin-top: 0; /* Resetting margin on the top */
 }
