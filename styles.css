@@ -5,12 +5,9 @@
 */
 
 /* Global Font Styles */
-#name, #project-header, #about-me, #skills, #autobiography {
+#name, #project-header, #about-me, #skills, #autobiography, #header, #projects, #contact-info, #email, #number, #address {
     font-family: 'Arial', sans-serif; /* Apply Arial or fallback to sans-serif font family */
-}
-
-#header, #projects, #contact-info {
-    font-family: 'Helvetica', sans-serif; /* Apply Helvetica or fallback to sans-serif font family */
+    color: white; /* Set text color to white */
 }
 
 /* Body Styles */
